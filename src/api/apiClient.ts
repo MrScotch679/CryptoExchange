@@ -1,7 +1,8 @@
 import axios from 'axios'
 
-const PROXY_URL = import.meta.env.VITE_PROXY_URL
-const API_URL = import.meta.env.VITE_API_URL
+// Оставлю ссылка на сайт, чтобы можно было проверить работоспособность
+const PROXY_URL = import.meta.env.VITE_PROXY_URL // https://proxy.corsfix.com
+const API_URL = import.meta.env.VITE_API_URL // https://pro-api.coinmarketcap.com
 const API_KEY = import.meta.env.VITE_API_KEY
 
 export const apiClient = axios.create({
