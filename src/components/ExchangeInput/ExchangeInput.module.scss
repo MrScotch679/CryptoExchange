@@ -1,0 +1,15 @@
+.exchangeInputWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+
+	p {
+		font-weight: 500;
+		font-size: 12px;
+	}
+}
+
+.error {
+	color: red;
+	font-size: 12px;
+}
