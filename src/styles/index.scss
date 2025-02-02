@@ -13,6 +13,10 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+p {
+	margin: 0;
+}
+
 body {
 	margin: 0;
 	display: flex;
@@ -22,4 +26,5 @@ body {
 	height: 100vh;
 	overflow: hidden;
 	padding: 5px;
+	background-color: rgba($color: gray, $alpha: 0.5);
 }
