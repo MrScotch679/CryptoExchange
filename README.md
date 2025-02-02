@@ -1,50 +1,38 @@
-# React + TypeScript + Vite
+# Crypto Exchange
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and intuitive cryptocurrency exchange platform built with modern technologies.
 
-Currently, two official plugins are available:
+## 🚀 Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is built with the following technologies:
 
-## Expanding the ESLint configuration
+- **React** – A JavaScript library for building user interfaces.
+- **TypeScript** – A typed superset of JavaScript that improves development with static types.
+- **MobX** – A simple state management solution that makes working with data in React apps easier.
+- **Axios** – A promise-based HTTP client for the browser and Node.js.
+- **CSS Modules** – Scoped CSS for modular and reusable styles.
+- **Ant Design** – A popular React UI framework that provides ready-made components and styles.
+- **Vite** – A fast and modern build tool that provides a development server with lightning-fast hot module replacement.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 💻 Running the Project
 
-- Configure the top-level `parserOptions` property like this:
+To run the project locally, follow these steps:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. **Clone the repository**:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+   ```bash
+   git clone https://github.com/MrScotch679/CryptoExchange.git
+   cd crypto-exchange
+   ```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+2. **Install dependencies**:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**:
+
+   ```bash
+   npm run dev
+   ```
