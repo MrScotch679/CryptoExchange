@@ -1,3 +1,5 @@
+import { Platform } from './Platform'
+
 export interface Crypto {
 	id: number
 	rank: number
@@ -7,13 +9,9 @@ export interface Crypto {
 	is_active: number
 	first_historical_data: string
 	last_historical_data: string
-	platform: Platform
+	platform?: Platform
 }
 
-export interface Platform {
-	id: number
-	name: string
-	symbol: string
-	slug: string
-	token_address: string
-}
+export type CryptoId = Crypto['id']
+
+export type CryptoType = 'sourceCrypto' | 'targetCrypto'
