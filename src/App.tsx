@@ -1,3 +1,8 @@
-export const App = () => {
-	return <div className='App'>Hi there!</div>
-}
+import { ExchangeForm } from '@components/ExchangeForm'
+
+export const App = () => (
+	<div>
+		<h1>Best Crypto Exchange 🪙</h1>
+		<ExchangeForm />
+	</div>
+)
