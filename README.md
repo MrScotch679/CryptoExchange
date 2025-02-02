@@ -22,7 +22,7 @@ To run the project locally, follow these steps:
 
    ```bash
    git clone https://github.com/MrScotch679/CryptoExchange.git
-   cd crypto-exchange
+   cd CryptoExchange
    ```
 
 2. **Install dependencies**:
