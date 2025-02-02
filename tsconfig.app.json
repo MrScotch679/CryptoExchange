@@ -21,14 +21,15 @@
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true,
 		"noUncheckedSideEffectImports": true,
-
 		"baseUrl": "src",
 		"paths": {
-			"@api/*": ["/api/*"],
-			"@styles/*": ["/styles/*"],
-			"@types/*": ["/types/*"],
-			"@components/*": ["/components/*"]
+			"@api/*": ["api/*"],
+			"@styles/*": ["styles/*"],
+			"@types/*": ["types/*"],
+			"@store/*": ["store/*"],
+			"@components/*": ["components/*"],
+			"@utils/*": ["utils/*"]
 		}
 	},
-	"include": ["src"]
+	"include": ["src", "vite-env.d.ts"]
 }

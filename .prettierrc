@@ -9,6 +9,7 @@
 	"importOrder": [
 		"<THIRD_PARTY_MODULES>",
 		"api/",
+		"utils/",
 		"types/",
 		"components/",
 		"styles/",
