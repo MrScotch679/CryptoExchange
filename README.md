@@ -31,7 +31,13 @@ To run the project locally, follow these steps:
    npm install
    ```
 
-3. **Start the development server**:
+3. **Сhange the .env file**:
+
+   VITE_PROXY_URL - https://proxy.corsfix.com
+   VITE_API_URL - https://pro-api.coinmarketcap.com
+   VITE_API_KEY - YOUR_API_KEY
+
+4. **Start the development server**:
 
    ```bash
    npm run dev
